@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>Object Dump</Title>
+    <PackageId>ObjectDump</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Khurram Mughal</Authors>
+    <Company>kmughal solutions ltd</Company>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>
+    Being a developer we have times during debugging when we want to save the 
+      C# object to either to dist or in clip board because we want to do further investigation.
+      You can add this package and dump object in to clipboard / on dist or output stream.
+      This project is open source see the code or fork it.
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.7.1" />
+    <PackageReference Include="TextCopy" Version="3.0.1" />
+  </ItemGroup>
+
+</Project>
