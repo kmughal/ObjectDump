@@ -3,7 +3,7 @@
 Create dump of object while debugging
 In order to use this follow these steps:
 
-- Add reference for this from nuget
+- Add reference for this from nuget https://www.nuget.org/packages/ObjectDump/1.0.0
 - See below code snippets how to use this:
 
 ```
