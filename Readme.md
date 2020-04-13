@@ -1,3 +1,6 @@
+
+![.NET Core](https://github.com/kmughal/ObjectDump/workflows/.NET%20Core/badge.svg?branch=master)
+
 # Introduction
 
 Create dump of object while debugging
